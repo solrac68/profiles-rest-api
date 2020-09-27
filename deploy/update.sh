@@ -2,7 +2,7 @@
 
 set -e
 
-PROJECT_BASE_PATH='/home/carlos/Proyectos/Python/profiles-rest-api'
+PROJECT_BASE_PATH='/usr/local/apps/profiles-rest-api'
 
 git pull
 $PROJECT_BASE_PATH/env/bin/python manage.py migrate
